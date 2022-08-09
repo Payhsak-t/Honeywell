@@ -1,0 +1,17 @@
+.row {
+  margin: 20px;
+}
+
+.seat {
+  margin: 10px;
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.seat.occupied {
+  background-color: #6feaf6;
+}
